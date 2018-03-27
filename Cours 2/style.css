@@ -1,0 +1,32 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: pink;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h1#title{
+  font-size: 50px;
+  color:green;
+  font-family: 'Roboto', sans-serif;
+
+}
+h2 {
+  font-family: Courier;
+  color: blue;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
