@@ -1,11 +1,20 @@
 /* style.css */
 
+
 body{
-  background: #fff;
+  background: #BDD0EE;
   color: #000; 
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   margin:0;
+}
+
+footer{
+  background: ##BDD0EE;
+  color: #A93226; 
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin:5;
 }
 
 nav{
@@ -15,6 +24,7 @@ nav{
 } 
 
 h1{
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   color:  #41A3C0; 
   font-weight: bolder;
@@ -23,13 +33,13 @@ h1{
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: #3b4563;
+  color: #F8F9F9;
   font-weight: lighter;
   font-size: 1.5em;
 }
 
 p{
-  color: #8e9bac;
+  color: #FDFEFE;
 }
 
 a { 
@@ -52,10 +62,11 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-color: #2ECC71;
+  background-image: url('https://static1.squarespace.com/static/5391d95de4b098aaf51595fc/t/56cb5f40f699bb3574be15c6/1456168775501/');
   text-align: center;
   background-size: cover;
-  padding: 150px;
+  padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
@@ -72,19 +83,24 @@ a:hover {
   text-decoration: none;
 }
 .feature,.defi{
-  border: 1px solid #F2F2F2;
-  background: #FAFAFA;
+  border: 15px solid #F2F2F2;
+  background: #BDD0EE;
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
 }
 
+ #defis{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
  #apropos{
   margin: 0 auto;
   width: 80%;
-  background-color: pink;
+  background: #BDD0EE;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,13 +129,15 @@ nav ul {
 }
 
 #welcome{
-  background-color: #41A3C0;
+background-image: url('https://static1.squarespace.com/static/5391d95de4b098aaf51595fc/t/56cb5f40f699bb3574be15c6/1456168775501/');
+  width: auto;
   text-align: center;
-  padding: 50px;
+  padding: 80px;
   color: white;
 }
 
 #welcome h4{
  font-size: 50px;
 }
+
 
