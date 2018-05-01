@@ -15,6 +15,7 @@ footer{
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   margin:5;
+  text-align: center;
 }
 
 nav{
@@ -69,6 +70,11 @@ a:hover {
   padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
+}
+
+#download{
+  text-align: center;
+  color: white;
 }
 
 #baseline h1 {
